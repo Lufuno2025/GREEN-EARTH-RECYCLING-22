@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GreenEarth Recycling — Sustainable Waste Solutions</title>
+  <meta name="description" content="GreenEarth Recycling offers community recycling services, scheduled pickups, and sustainability resources in Cape Town.">
+  <!-- Basic SEO and social preview -->
+  <meta property="og:title" content="GreenEarth Recycling">
+  <meta property="og:description" content="Sustainable recycling services, pickup requests and community resources.">
+  <meta name="theme-color" content="#2f6b2f">
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <header>
+        <img src="../Assets/OIP.webp" alt="GreenEarth Recycling Logo" width="120">
+        <nav>
+            <ul>
+            <a href="index.html">Home</a> |
+            <a href="./page folder/about-us.html">About Us</a> |
+            <a href="./page folder/services.html">Services</a> |
+            <a href="./page folder/blog.html">Blog</a> |
+            <a href="./page folder/contact.us.html">Contact</a>
+            </ul>
+        </nav>
+    </header>
+    <header class="container">
+    <nav aria-label="Main navigation">
+      <div class="brand" role="img" aria-label="GreenEarth Recycling logo">
+        <div class="logo">GE</div>
+        <div>
+    <!-- Main Content -->
+    <main>
+        <section>   
+  <link rel="icon" type="image/png" href="./Assets/image.jfif">
+            <h1>Welcome to GreenEarth Recycling</h1>
+            <p>We are committed to reducing waste and promoting sustainable recycling solutions for businesses, schools, and communities in South Africa.</p>
+            <img src="./Assets/image.jfif" alt="Recycling Efforts" width="400">
+            <section>
+    </main>
+</head>
+<body>
+  
+          <div style="font-weight:800;color:var(--green-700)">GreenEarth Recycling</div>
+          <div style="font-size:.9rem;color:var(--muted)">Cape Town — Waste Management & Recycling</div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  </section>
+  <!--Gallery section-->
+            <p>learn how to recycle with us </p>
+            <video src="Assets/WhatsApp Video 2025-08-26 at 12.42.24.mp4"width="400"height="300" controls></video><br/>
+            <p>We can do this for a good environment.</p>
+            <img src="./Assets/OIP (13.webp "alt="Recycling Efforts" width="400">
+             <p>good earth recycling</p>
+            <img src="./Assets/t1`.webp"alt="Recycling Efforts" width="400">
+            <p>before and after 
+            <img src="./Assets/4.webp "alt="Recycling Efforts" width="400">
+            <p>our world is in our hands
+               <img src="./Assets/images world.jpg"alt="Recycling Efforts" width="300">
+            </p>
+        </section>
+<!--HERO SECTION-->
+  <main class="container">
+    <section class="hero-card hero" aria-labelledby="hero-heading">
+    </section>
+  </main>
+
+  <footer class="container">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap">
+      <div>© GreenEarth Recycling — 2017–2025</div>
+      <div style="color:var(--muted);font-size:.95rem">Designed for accessibility, mobile responsiveness and SEO. Domain suggestion: <em>www.greenearthrecycling.co.za</em></div>
+    </div>
+  </footer>
+
+  <script>
+    // Minimal client-side form handling (for development only). Replace with server-side endpoint.
+    document.getElementById('pickupForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      const name = document.getElementById('fullname').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const msg = document.getElementById('form-msg');
+
+      if(!name || !email){
+        msg.textContent = 'Please provide your name and email.';
+        msg.style.color = 'crimson';
+        return;
+      }
+
+      // Simulate success — in production, POST to your backend and handle response.
+      msg.style.color = 'green';
+      msg.textContent = 'Thanks ' + name.split(' ')[0] + '! Your request has been received. We will contact you shortly.';
+      this.reset();
+    });
+  </script>
+
+  
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - GreenEarth Recycling</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="../Assets/OIP.webp" alt="GreenEarth Recycling Logo" width="150">
+        <nav>
+            <a href="../index.html">Home</a> |
+            <a href="about-us.html">About Us</a> |
+            <a href="services.html">Services</a> |
+            <a href="blog.html">Blog</a> |
+            <a href="contact.us.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Contact Us</h1>
+        
+      <aside aria-labelledby="request-heading">
+        <div class="card" id="request">
+          <h2 id="request-heading">Request a Pickup</h2>
+          <form id="pickupForm" novalidate>
+            <label for="fullname">Full name</label>
+            <input id="fullname" name="fullname" type="text" required aria-required="true" placeholder="Your full name">
+
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" required placeholder="you@example.com">
+
+            <label for="phone">Phone number</label>
+            <input id="phone" name="phone" type="text" placeholder="(021) 555 0123">
+
+            <label for="service">Service required</label>
+            <select id="service" name="service">
+              <option>Residential Pickup</option>
+              <option>Commercial Waste Solutions</option>
+              <option>Bulky Item Collection</option>
+              <option>Community Program / Event</option>
+            </select>
+
+            <label for="address">Collection address</label>
+            <input id="address" name="address" type="text" placeholder="Street, Suburb, City">
+
+            <label for="details">More details (optional)</label>
+            <textarea id="details" name="details" placeholder="Number of bags/items, preferred days, access notes"></textarea>
+
+            <p style="margin-top:.5rem"><button class="btn" type="submit">Submit Request</button></p>
+            <p id="form-msg" role="status" aria-live="polite" style="margin-top:.5rem;color:var(--muted)"></p>
+          </form>
+        </div>
+
+        <div style="height:1rem"></div>
+
+        <div class="card">
+          <h3>Contact & Hours</h3>
+          <p class="meta">Phone: <strong>(021) 555 0123</strong><br>Email: <a href="mailto:info@greenearthrecycling.co.za">info@greenearthrecycling.co.za</a></p>
+          <p class="meta">Office hours: Mon–Fri 8:00–17:00</p>
+        </div>
+      </aside>
+    </div>
+     <!-- Embedded Google Map -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18..." 
+                    width="400" height="300" style="border:0;" allowfullscreen></iframe>
+    </main>
+    
+    <section id="contact" style="margin-top:1.25rem">
+      <h2>Contact & Location</h2>
+      <p style="color:var(--muted)">Reach out for quotes, bulk services, or to join a local clean-up.</p>
+      <!-- Placeholder map: replace with embedded Google Maps or other map iframe in production -->
+      <div class="card" style="min-height:180px;display:flex;align-items:center;justify-content:center;color:var(--muted);">
+        Map placeholder — embed Google Maps iframe or similar here for live site.
+      </div>
+    </section>
+
+    </main>
+
+    <!-- Footer -->
+     <footer class="container">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap">
+      <div>© GreenEarth Recycling — 2017–2025</div>
+      <div style="color:var(--muted);font-size:.95rem">Designed for accessibility, mobile responsiveness and SEO. Domain suggestion: <em>www.greenearthrecycling.co.za</em></div>
+    </div>
+  </footer>
+</body>
+</html>
