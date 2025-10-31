@@ -6,6 +6,7 @@
   <title>About — GreenEarth Recycling</title>
   <meta name="description" content="About GreenEarth Recycling — mission, team and impact." />
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/lightbox.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -20,13 +21,13 @@
       </div>
       <button class="menu-toggle" aria-controls="main-nav" aria-expanded="false">Menu</button>
       <nav id="main-nav" class="nav">
-         <a href="../index.html">Home</a>
-        <a href="../page folder/about-us.html">About</a>
+        <a href="../index.html">Home</a>
+        <a href="../page folder/about-us.html" class="active">About</a>
         <a href="../page folder/services.html">Services</a>
         <a href="../page folder/gallery.html">Gallery</a>
-        <a href="../page folder/blog.html" >Blog</a>
+        <a href="../page folder/blog.html">Blog</a>
         <a href="../page folder/contact.us.html">Contact</a>
-       <a href="../page folder/enquiry.html">enquiry</a>
+        <a href="../page folder/enquiry.html">Enquiry</a>
       </nav>
     </div>
   </header>
@@ -34,52 +35,30 @@
   <main class="container">
     <article class="card">
       <h1>About GreenEarth Recycling</h1>
-      <p>GreenEarth Recycling was established in 2017 in Cape Town to address local waste challenges by combining collection services, community education and partnerships with local businesses and schools.</p>
+      <p>GreenEarth Recycling was established in 2017 in Cape Town to address waste challenges through innovation, education, and community partnerships.</p>
 
-     <h2>Mission</h2>
-<button class="accordion-toggle" aria-expanded="false">Mission</button>
-<div class="accordion-panel">
-  <p>To reduce waste and inspire communities to reuse and recycle through practical, accessible programs.</p>
-</div>
+      <h2>Mission</h2>
+      <p>To reduce waste and inspire communities to recycle through accessible, eco-friendly programs.</p>
 
-<h2>Team</h2>
-<button class="accordion-toggle" aria-expanded="false">Team</button>
-<div class="accordion-panel">
-  <div class="team-grid">
-    <div class="team-card">
-      <img src="../Assets/nomvula team founder.webp" alt="Team member" />
-      <div class="team-name">Nomvula — Founder</div>
-    </div>
-    <div class="team-card">
-      <img src="../Assets/sipho.jpg" alt="Team member" />
-      <div class="team-name">Sipho — Operations</div>
-    </div>
-    <div class="team-card">
-      <img src="../Assets/aisha.webp" alt="Team member" />
-      <div class="team-name">Aisha — Community Coordinator</div>
-    </div>
-  </div>
-</div>
+      <h2>Our Team</h2>
+      <input type="text" id="searchBar" placeholder="Search for a team member..." class="search-bar" />
 
-<h2>Our Impact</h2>
-<button class="accordion-toggle" aria-expanded="false">Our Impact</button>
-<div class="accordion-panel">
-  <div class="stats-row">
-    <div class="stat">
-      <div class="stat-num">8,400</div>
-      <div class="stat-label">kg recycled (2024)</div>
-    </div>
-    <div class="stat">
-      <div class="stat-num">120</div>
-      <div class="stat-label">community events</div>
-    </div>
-    <div class="stat">
-      <div class="stat-num">60+</div>
-      <div class="stat-label">schools supported</div>
-    </div>
-  </div>
-</div>
+      <div id="teamGrid" class="team-grid"></div>
 
+      <h2>Our Impact</h2>
+      <div class="stats-row">
+        <div class="stat">
+          <div class="stat-num">8,400</div>
+          <div class="stat-label">kg recycled (2024)</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">120</div>
+          <div class="stat-label">community events</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">60+</div>
+          <div class="stat-label">schools supported</div>
+        </div>
       </div>
     </article>
   </main>
@@ -88,12 +67,16 @@
     <div class="container footer-inner">
       <div>© GreenEarth Recycling — 2017–2025</div>
       <div class="socials">
-        <a aria-label="Facebook" href="#">Facebook</a>        
-        <a aria-label="Instagram" href="#">Instagram</a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
       </div>
     </div>
   </footer>
 
-  <script src="../js/script.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="../js/lightbox.js"></script>
+  <script src="../js/about.js"></script>
 </body>
 </html>
+

@@ -1,0 +1,12 @@
+# robots.txt for GreenEarth Recycling
+
+User-agent: *
+Allow: /
+
+# Block system folders
+Disallow: /Assets/
+Disallow: /css/
+Disallow: /js/
+
+# Sitemap location
+Sitemap: https://yourdomain.co.za/sitemap.xml
