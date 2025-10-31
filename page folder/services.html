@@ -1,58 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Services - GreenEarth Recycling</title>
-    <link rel="stylesheet" href="../css/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Services — GreenEarth Recycling</title>
+  <meta name="description" content="Services offered by GreenEarth Recycling: residential pickups, commercial solutions and school programs." />
+  <link rel="stylesheet" href="../css/style.css" />
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <img src="../Assets/OIP.webp" alt="GreenEarth Recycling Logo" width="120">
-        <nav>
-            <ul>
-            <a href="../index.html">Home</a> |
-            <a href="about-us.html">About Us</a> |
-            <a href="services.html">Services</a> |
-            <a href="blog.html">Blog</a> |
-            <a href="contact.us.html">Contact</a>
-            </ul>
-        </nav>
-    </header>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="../Assets/logo 2.jpg" alt="GreenEarth Recycling logo" class="logo-img"/>
+        <div>
+          <div class="brand-title">GreenEarth Recycling</div>
+          <div class="brand-sub">Cape Town — Waste Management & Recycling</div>
+        </div>
+      </div>
+      <button class="menu-toggle" aria-controls="main-nav" aria-expanded="false">Menu</button>
+      <nav id="main-nav" class="nav">
+        <a href="../index.html">Home</a>
+        <a href="../page folder/about-us.html">About</a>
+        <a href="../page folder/services.html">Services</a>
+        <a href="../page folder/gallery.html">Gallery</a>
+        <a href="../page folder/blog.html" >Blog</a>
+        <a href="../page folder/contact.us.html">Contact</a>
+        <a href="../page folder/enquiry.html">enquiry</a>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Main Content -->
-    <main>
-        <h1>Our Recycling Services</h1>
-        <section>
-            <article>
-                <h2>Residential Recycling</h2>
-                <p>Door-to-door recycling collection services for households, including plastics, paper, glass, and metals.</p>
-            </article>
+  <main class="container">
+    <article class="card">
+      <h1>Services</h1>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🗑️</div>
+          <h3>Residential Pickup</h3>
+          <p>Regular collection for households — paper, plastics, glass and metal. Flexible weekly or fortnightly schedules.</p>
+        </div>
 
-            <article>
-                <h2>Business Waste Solutions</h2>
-                <p>Eco-friendly recycling solutions tailored for offices, schools, and large organizations.</p>
-            </article>
+        <div class="service-card">
+          <div class="service-icon">🏢</div>
+          <h3>Commercial Solutions</h3>
+          <p>Corporate recycling plans with reporting and KPI support to help businesses meet sustainability goals.</p>
+        </div>
 
-            <article>
-                <h2>Community Awareness Programs</h2>
-                <p>Workshops, training sessions, and awareness campaigns to promote sustainability in local communities.</p>
-            </article>
+        <div class="service-card">
+          <div class="service-icon">🏫</div>
+          <h3>School & Community Programs</h3>
+          <p>Educational workshops and drives that engage learners and local residents in recycling efforts.</p>
+        </div>
 
-            <article>
-                <h2>Special Collection Services</h2>
-                <p>Safe disposal of e-waste, batteries, and hazardous waste.</p>
-            </article>
-        </section>
-    </main>
+        <div class="service-card">
+          <div class="service-icon">🚚</div>
+          <h3>Bulky Item Collection</h3>
+          <p>Scheduled collection for furniture and appliances, with responsible disposal and reuse where possible.</p>
+        </div>
+      </div>
+    </article>
+  </main>
 
-    <!-- Footer -->
-     <footer class="container">
-    <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap">
+  <footer class="site-footer">
+    <div class="container footer-inner">
       <div>© GreenEarth Recycling — 2017–2025</div>
-      <div style="color:var(--muted);font-size:.95rem">Designed for accessibility, mobile responsiveness and SEO. Domain suggestion: <em>www.greenearthrecycling.co.za</em></div>
     </div>
   </footer>
+
+  <script src="../js/script.js"></script>
 </body>
 </html>

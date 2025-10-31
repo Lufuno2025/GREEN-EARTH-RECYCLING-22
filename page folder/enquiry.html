@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Enquiry — GreenEarth Recycling</title>
+  <meta name="description" content="Enquire about services, volunteering or sponsorship with GreenEarth Recycling.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="container header" role="banner">
+    <div class="brand" role="img" aria-label="GreenEarth Recycling logo">
+      <img src="../Assets/logo 2.jpg" alt="GreenEarth Recycling logo" class="logo-img" />
+      <div>
+        <div class="brand-title">GreenEarth Recycling</div>
+        <div class="brand-sub">Cape Town — Waste Management & Recycling</div>
+      </div>
+    </div>
+    <button class="menu-toggle" aria-controls="main-nav" aria-expanded="false">Menu</button>
+    <nav id="main-nav" class="navbar" role="navigation" aria-label="Main navigation">
+      <a href="../index.html">Home</a>
+      <a href="../page folder/about-us.html">About</a>
+      <a href="../page folder/services.html">Services</a>
+      <a href="../page folder/enquiry.html">Enquiry</a>
+      <a href="../page folder/contact.us.html">Contact</a>
+       <a href="../page folder/blog.html" >Blog</a>   
+    </nav>
+  </header>
+<div class="enquiry-container">
+  <h2>Service Enquiry</h2>
+  <form id="enquiryForm">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" placeholder="Enter your full name" required>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+
+    <label for="service">Service Type</label>
+    <select id="service" required>
+      <option value="">Select a Service</option>
+      <option value="recycling">Recycling Pickup</option>
+      <option value="sponsorship">Sponsorship</option>
+      <option value="volunteer">Volunteer</option>
+    </select>
+
+    <label for="message">Message</label>
+    <textarea id="message" rows="4" placeholder="Write your enquiry..." required></textarea>
+
+    <button type="submit">Submit Enquiry</button>
+  </form>
+</div>
+<script src="../js/enquery.js"></script>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-info">
+        <p>&copy; 2024 GreenEarth Recycling. All rights reserved.</p>
+        <p>123 Green St, Cape Town, South Africa | Phone: +27 21 123 4567 | Email:
