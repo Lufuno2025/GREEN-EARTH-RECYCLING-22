@@ -99,3 +99,28 @@ document.addEventListener('DOMContentLoaded', function(){
     } catch(e){ console.warn('Leaflet init failed', e); }
   }
 });
+// Function to display current date and time
+function showCurrentDateTime() {
+  const now = new Date();
+
+  // Options for a nice format
+  const options = { 
+    weekday: 'long', 
+    year: 'numeric', 
+    month: 'long', 
+    day: 'numeric',
+    hour: '2-digit', 
+    minute: '2-digit',
+    second: '2-digit',
+    hour12: true
+  };
+
+  const formattedDate = now.toLocaleString('en-ZA', options); // South Africa locale
+  document.getElementById('current-date-time').textContent = formattedDate;
+}
+
+// Update every second
+setInterval(showCurrentDateTime, 1000);
+
+// Initial call
+showCurrentDateTime();
