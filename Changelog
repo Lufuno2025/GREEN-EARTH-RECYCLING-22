@@ -1,0 +1,13 @@
+| Version  | Date       | Description of Changes                                                                     | Implemented By |
+| -------- | ---------- | ------------------------------------------------------------------------------------------ | -------------- |
+| **v1.0** | 2025-08-10 | Initial setup of HTML pages (Home, About, Services, Gallery, Contact) and base CSS layout. | Lufuno         |
+| **v1.1** | 2025-09-02 | Added responsive navigation bar, hero section and footer.                                  | Lufuno         |
+| **v1.2** | 2025-09-18 | Integrated Font Awesome icons, added meta tags (SEO title, description, keywords).         | Lufuno         |
+| **v1.3** | 2025-10-05 | Fixed broken logo path and image sizing on Home; improved layout and consistency.          | Lufuno         |
+| **v1.4** | 2025-10-12 | Replaced inline CSS on About page with external stylesheet.                                | Lufuno         |
+| **v1.5** | 2025-10-20 | Added interactive JS elements: Accordion (FAQ), Search Bar, Dynamic Clock/Date.            | Lufuno         |
+| **v1.6** | 2025-10-24 | Implemented Lightbox in Gallery and interactive Google Map on Contact page.                | Lufuno         |
+| **v1.7** | 2025-10-27 | Added Enquiry Form and Contact Form with JS validation and feedback messages.              | Lufuno         |
+| **v1.8** | 2025-10-28 | Updated color scheme (Pink & White), improved footer and responsive layout.                | Lufuno         |
+| **v1.9** | 2025-10-29 | Added sitemap.xml, robots.txt, manifest.json, and documentation updates.                   | Lufuno         |
+| **v2.0** | 2025-10-31 | Final refinements, proofreading, GitHub commits, and full testing.                         | Lufuno         |

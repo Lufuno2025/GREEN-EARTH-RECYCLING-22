@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Prevent indexing of admin or development files (if any)
+Disallow: /drafts/
+Disallow: /temp/
+Disallow: /backup/
+
+# Sitemap for search engines
+Sitemap: https://greenearthrecycling.github.io/sitemap.xml
+
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://greenearthrecycling.github.io/index.html</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About Us -->
+  <url>
+    <loc>https://greenearthrecycling.github.io/page%20folder/about-us.html</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Services -->
+  <url>
+    <loc>https://greenearthrecycling.github.io/page%20folder/services.html</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Gallery -->
+  <url>
+    <loc>https://greenearthrecycling.github.io/page%20folder/gallery.html</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog -->
+  <url>
+    <loc>https://greenearthrecycling.github.io/page%20folder/blog.html</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact Us -->
+  <url>
+    <loc>https://greenearthrecycling.github.io/page%20folder/contact.us.html</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Enquiry Page -->
+  <url>
+    <loc>https://greenearthrecycling.github.io/page%20folder/enquiry.html</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://lufuno.github.io/GreenEarth-Recycling/index.html</loc></url>
+  <url><loc>https://lufuno.github.io/GreenEarth-Recycling/page%20folder/about-us.html</loc></url>
+  <url><loc>https://lufuno.github.io/GreenEarth-Recycling/page%20folder/services.html</loc></url>
+  <url><loc>https://lufuno.github.io/GreenEarth-Recycling/page%20folder/gallery.html</loc></url>
+  <url><loc>https://lufuno.github.io/GreenEarth-Recycling/page%20folder/blog.html</loc></url>
+  <url><loc>https://lufuno.github.io/GreenEarth-Recycling/page%20folder/contact.us.html</loc></url>
+  <url><loc>https://lufuno.github.io/GreenEarth-Recycling/page%20folder/enquiry.html</loc></url>
+</urlset>
+

@@ -1,0 +1,37 @@
+{
+  "name": "GreenEarth Recycling",
+  "short_name": "GreenEarth",
+  "description": "GreenEarth Recycling — Cape Town’s trusted waste management and recycling service provider focused on sustainability and community impact.",
+  "lang": "en-ZA",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ff66b2",
+  "orientation": "portrait-primary",
+
+  "icons": [
+    {
+      "src": "Assets/logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "Assets/logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+
+  "categories": [
+    "Recycling",
+    "Environment",
+    "Sustainability",
+    "Waste Management"
+  ],
+
+  "author": {
+    "name": "GreenEarth Recycling Team",
+    "email": "info@greenearthrecycling.co.za",
+    "url": "https://greenearthrecycling.github.io/"
+  }
+}
